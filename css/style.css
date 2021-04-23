@@ -2,10 +2,22 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
 }
-.background{
+body{
     background-image: url("images/pizza1.jpeg");
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
+}
+.top{
+    background-color: maroon;
+    color:#FDB913;
+    height: 200px;
+    border-bottom: 5px solid #FDB913;
+}
+.jumbotron{
+    margin-right: 700px;
+    background-color: inherit;
+    color:  #FDB913;
+    margin-top: 60px;
 }
