@@ -47,3 +47,22 @@ h2{
     float: right;
     color: black;
 }
+#price-content{
+    text-align: center;
+}
+#details{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.back h1{
+    color: black;
+    margin-left: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+}
+.back img{
+    display: inline;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
