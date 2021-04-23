@@ -1,5 +1,5 @@
-#Pizza Website
-##Author
+# Pizza Website
+## Author
 Natasha Serem
 ### Description
 This is an online pizza delivery website. In this page, you can order a pizza depending on how you like it and what you like on it. You can even choose the option for it to be delivered right at your doorstep.
