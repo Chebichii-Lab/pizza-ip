@@ -71,7 +71,7 @@ $("form#custom-pizza").submit(function(event) {
   totalPriceArray.push(newPizzaOrder.pizzaPrice);
   // $("#pizza-details").hide();
   $("#final-cost").text(newPizzaOrder.finalCost());
-  $("#details").append("<ul><li>" + pizzaDetails + "</li></ul>");
+  $("#order-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
   // $("#size, #crust, #toppings,").val("");
 });
 $("#submit-pizza").click(function() {
