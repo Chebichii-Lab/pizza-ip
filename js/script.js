@@ -58,7 +58,7 @@ function Address(address) {
     return cartTotalPrice;
   };
 
-  $(".btn.finish").click(function() {
+  $(".btn.check-out").click(function() {
 });
 $("form#custom-pizza").submit(function(event) {
   event.preventDefault();
@@ -71,15 +71,22 @@ $("form#custom-pizza").submit(function(event) {
   totalPriceArray.push(newPizzaOrder.pizzaPrice);
   // $("#pizza-details").hide();
   $("#final-cost").text(newPizzaOrder.finalCost());
-  $("#order-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
+  $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
   // $("#size, #crust, #toppings,").val("");
 });
 $("#submit-pizza").click(function() {
   $("#deliver").toggle();
 });
 
-$("#finish-btn").click(function() {
+$("#check-out-btn").click(function() {
   $("#order-details").toggle();
+});
+$("form#address-form").submit(function(event) {
+  $(".address-form").toggle();
+  event.preventDefault();
+  var address = $("input#location").val();
+  var newAddress = new Address(address);
+  $("#delivery-option").text("Your pizza will be delivered to: " + newAddress.deliveryAddress);
 });
 
 
