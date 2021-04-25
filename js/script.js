@@ -81,12 +81,4 @@ $("#submit-pizza").click(function() {
 $("#check-out-btn").click(function() {
   $("#order-details").toggle();
 });
-$("form#address-form").submit(function(event) {
-  $(".address-form").toggle();
-  event.preventDefault();
-  var address = $("input#location").val();
-  var newAddress = new Address(address);
-  $("#delivery-option").text("Your pizza will be delivered to: " + newAddress.deliveryAddress);
-});
-
 
