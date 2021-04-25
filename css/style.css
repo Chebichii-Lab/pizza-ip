@@ -69,9 +69,6 @@ h2{
 .nav-link{
     color: #FDB913;
 }
-.banner{
-    color: #FDB913;
-}
 .banner h1{
     border-top: 5px double rgba(155, 28, 12, 0.801);
     border-bottom: 5px double rgba(155, 28, 12, 0.801);
